@@ -115,7 +115,7 @@ Good luck on your learning journey!
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            <Button onClick={handleDownload} className="flex-1 flex items-center justify-center">
+            <Button onClick={handleDownload} className="flex-1 flex items-center justify-center bg-green-600 hover:bg-green-700">
               <Download className="w-5 h-5 mr-2" />
               Download Path
             </Button>
@@ -215,7 +215,7 @@ Good luck on your learning journey!
             Follow this roadmap step by step, and you'll be well on your way to achieving your goal!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button onClick={handleDownload} className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button onClick={handleDownload} className="bg-white text-green-600 hover:bg-gray-100">
               <Download className="w-5 h-5 mr-2" />
               Save Your Path
             </Button>
